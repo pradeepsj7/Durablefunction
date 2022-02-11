@@ -12,3 +12,4 @@ module.exports = df.orchestrator(function* (context) {
 
     return outputs;
 });
+//This code calls an Activity function named Approval, which you'll create shortly. The code in the orchestrator function invokes the Approval function twice. The first time simulates accepting the proposal, and the second time tests the proposal rejection logic.
