@@ -1,4 +1,4 @@
-# durablefunction
+# Durablefunction
 Durable function app learning demo
 
 Client function: Http start
