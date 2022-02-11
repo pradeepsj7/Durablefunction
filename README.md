@@ -31,3 +31,8 @@ Response:
 https://learndurablefunction.azurewebsites.net/runtime/webhooks/durabletask/instances/0de13d526dd34c069361850c7d6a3627?taskHub=learndurablefunction&connection=Storage&code=ccrYZi10wKfAtmywo5uTWMklWwSdRLZxa7jIvqa/HTgMEeRUAe0e8Q==
 
 {"name":"OrchFunction","instanceId":"0de13d526dd34c069361850c7d6a3627","runtimeStatus":"Completed","input":null,"customStatus":null,"output":["Your project design proposal has been -  Approved!","Your project design proposal has been -  Rejected!"],"createdTime":"2022-02-11T04:42:49Z","lastUpdatedTime":"2022-02-11T04:42:50Z"}
+
+
+Timers in durable function
+Escalation_index.js
+This code returns a message indicating that the workflow has been escalated. In a production system, this function would contain the logic to remind the recipient, or reassign the task.
