@@ -1,9 +1,12 @@
 # Durablefunction
 Durable function app learning demo
+//Install durable function - console
+npm install durable-function
 
+<!-- Create three function
 Client function: Http start
 Orchestrator function: OrchFunction
-Activity function: Approval
+Activity function: Approval -->
 
 
 //Function URL
